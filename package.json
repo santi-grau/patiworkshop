@@ -1,0 +1,45 @@
+{
+  "name": "PATI_Workshop",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git"
+  },
+  "description": "Boilerplate for PATI Workshop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt build && mkdir -p docs/js",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "lct",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "save": "^2.3.2",
+    "simplex-noise": "*",
+    "three": "*",
+    "three-orbit-controls": "*",
+    "uglifyjs": "^2.4.11"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "stylus": "*",
+    "express": "*",
+    "figlet": "*",
+    "browserify": "*",
+    "browserify-middleware": "*",
+    "nib": "*",
+    "pug": "*",
+    "stringify": "*"
+  },
+  "engines": {
+    "node": "8.12.0"
+  }
+}
